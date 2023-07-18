@@ -1,0 +1,21 @@
+Lead tracker chrome extension
+-const
+-addEventListenr()
+-innerHTML
+-input.value
+-function parameters
+-template strings
+-logalStorage
+-The JSON object
+-objects in arrays
+
+
+
+add an event listener to a button, then fetch out the input.value, take that value and stored it in an object and convert it to a JSON using JSON.stringify, shoving it into local storage. So you can fetch it out later and use JSON.parse in order to get it back into a JavaScript array, and then render it out in the function, shove it in as a parameter and just use a template string and innerHTML to displayed on the screen
+====================================================================================
+
+This project aims to create a Google Chrome extension that allows users to save the current tab or an inputed tab on a list, store that data using the browser's LocalStorage, retrieve and render the stored data on the screen later. 
+
+The Lead tracker chrome extension utilizes various JavaScript concepts and functions such as "const", "addEventListener()", "innerHTML", "input.value", "function parameters", "template strings", "the JSON object", and "objects in arrays".
+
+This project provides a simple and effective way to store data locally, making it easily accessible for the user. It demonstrates the use of event handling, data manipulation, LocalStorage interaction, and rendering data dynamically on a webpage using JavaScript.
